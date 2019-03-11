@@ -1,0 +1,684 @@
+<Canvas
+  Width="1441"
+  Height="900"
+  ClipToBounds="True">
+  <Rectangle
+    Width="1441"
+    Height="80">
+    <Rectangle.Fill>
+      <LinearGradientBrush
+        StartPoint="0.002267583,0.08163261"
+        EndPoint="0.9931974,0.8673474">
+        <LinearGradientBrush.GradientStops>
+          <GradientStop
+            Color="#18C976"
+            Offset="0" />
+          <GradientStop
+            Color="#CC18C976"
+            Offset="1" />
+        </LinearGradientBrush.GradientStops>
+      </LinearGradientBrush>
+    </Rectangle.Fill>
+  </Rectangle>
+  <Canvas
+    Canvas.Left="1344"
+    Canvas.Top="16"
+    Width="48.99988"
+    Height="48"
+    ClipToBounds="True">
+    <Ellipse
+      Width="48.99988"
+      Height="48"
+      Fill="#0018C976" />
+    <Image
+      Canvas.Top="-5"
+      Width="49.00001"
+      Height="73.9595718383789">
+      <Image.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform
+            ScaleX="-1" />
+        </TransformGroup>
+      </Image.RenderTransform>
+    </Image>
+  </Canvas>
+  <Rectangle
+    Canvas.Left="144"
+    Canvas.Top="12"
+    Width="721"
+    Height="56.0000610351563"
+    RadiusX="17"
+    RadiusY="17"
+    Fill="#59FFFFFF" />
+  <Rectangle
+    Canvas.Top="80"
+    Width="321"
+    Height="820"
+    Fill="#FFFFFF">
+    <Rectangle.Effect>
+      <DropShadowEffect
+        Color="#7F646464"
+        Opacity="0.5"
+        BlurRadius="4"
+        Direction="0"
+        ShadowDepth="2" />
+    </Rectangle.Effect>
+  </Rectangle>
+  <Canvas
+    Canvas.Left="50"
+    Canvas.Top="14"
+    Width="44.33337"
+    Height="55"
+    ClipToBounds="True">
+    <Path
+      Data="M0.0005 0L0.0005 50"
+      Stretch="Fill"
+      Canvas.Top="0.7"
+      Width="4.333328"
+      Height="50.0000152587891"
+      StrokeThickness="2"
+      Stroke="#FFFFFF" />
+    <Path
+      Data="M0.0005 0L0.0005 50"
+      Stretch="Fill"
+      Canvas.Left="40"
+      Canvas.Top="0.7"
+      Width="4.333328"
+      Height="50.0000152587891"
+      StrokeThickness="2"
+      Stroke="#FFFFFF" />
+    <Path
+      Data="M40 0L0 50"
+      Stretch="Fill"
+      Canvas.Top="0.7"
+      Width="41.00002"
+      Height="50.0000152587891"
+      StrokeThickness="2"
+      Stroke="#FFFFFF" />
+    <Path
+      Data="M0 0L30 11.6667"
+      Stretch="Fill"
+      Canvas.Top="0.7"
+      Width="31.00002"
+      Height="11.666654586792"
+      StrokeThickness="2"
+      Stroke="#FFFFFF" />
+    <Path
+      Data="M28.3334 0L0 16.6667"
+      Stretch="Fill"
+      Canvas.Top="12.3"
+      Width="29.33337"
+      Height="16.6666564941406"
+      StrokeThickness="2"
+      Stroke="#FFFFFF" />
+    <Path
+      Data="M0 0.0005L18.3333 0.0005"
+      Stretch="Fill"
+      Canvas.Left="20"
+      Canvas.Top="25.7"
+      Width="19.33334"
+      Height="3.33333206176758"
+      StrokeThickness="2"
+      Stroke="#FFFFFF" />
+    <Path
+      Data="M0 0.0005L40 0.0005"
+      Stretch="Fill"
+      Width="41.00002"
+      Height="3.33331680297852"
+      StrokeThickness="2"
+      Stroke="#FFFFFF" />
+    <Path
+      Data="M0 0.0005L40 0.0005"
+      Stretch="Fill"
+      Canvas.Top="51.7"
+      Width="41.00002"
+      Height="3.33331680297852"
+      StrokeThickness="2"
+      Stroke="#FFFFFF" />
+  </Canvas>
+  <Canvas
+    Canvas.Left="24"
+    Canvas.Top="120"
+    Width="273"
+    Height="544"
+    ClipToBounds="True">
+    <Border
+      Width="241"
+      Height="24">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Center"
+        LineHeight="32"
+        TextWrapping="Wrap"
+        Text="Concept of the Day"
+        FontFamily="Segoe UI"
+        FontSize="24"
+        FontStretch="Medium"
+        Foreground="#18C976" />
+    </Border>
+    <Border
+      Canvas.Top="48"
+      Width="89"
+      Height="32">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Center"
+        LineHeight="37"
+        TextWrapping="Wrap"
+        Text="robust"
+        FontFamily="Segoe UI"
+        FontSize="28"
+        FontStretch="Medium"
+        Foreground="#686868" />
+    </Border>
+    <Border
+      Canvas.Top="80"
+      Width="121"
+      Height="32">
+      <TextBlock
+        TextAlignment="Left"
+        VerticalAlignment="Center"
+        LineHeight="32"
+        TextWrapping="Wrap"
+        Text="/rōˈbəst/"
+        FontFamily="Segoe UI"
+        FontSize="24"
+        FontStretch="Medium"
+        Foreground="#686868" />
+    </Border>
+    <Canvas
+      Canvas.Top="392"
+      Width="273"
+      Height="152"
+      ClipToBounds="True">
+      <Border
+        Width="193"
+        Height="24">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Center"
+          LineHeight="32"
+          TextWrapping="Wrap"
+          Text="Related Projects"
+          FontFamily="Segoe UI"
+          FontSize="24"
+          FontStretch="Medium"
+          Foreground="#18C976" />
+      </Border>
+      <Canvas
+        Canvas.Top="40"
+        Width="273"
+        Height="112"
+        ClipToBounds="True">
+        <Canvas
+          Width="273"
+          Height="48"
+          ClipToBounds="True">
+          <Border
+            Width="257"
+            Height="24">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Center"
+              LineHeight="24"
+              TextWrapping="Wrap"
+              Text="Meituan-Dianping/Robust"
+              FontFamily="Segoe UI"
+              FontSize="18"
+              FontStretch="Medium"
+              Foreground="#BF18C976" />
+          </Border>
+          <Border
+            Canvas.Top="32"
+            Width="273"
+            Height="16">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Center"
+              LineHeight="20"
+              TextWrapping="Wrap"
+              Text="Robust is an Android HotFix solution with..."
+              FontFamily="Segoe UI"
+              FontSize="13"
+              FontStretch="Medium"
+              Foreground="#686868" />
+          </Border>
+        </Canvas>
+        <Canvas
+          Canvas.Top="64"
+          Width="273"
+          Height="48"
+          ClipToBounds="True">
+          <Border
+            Width="257"
+            Height="24">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Center"
+              LineHeight="24"
+              TextWrapping="Wrap"
+              Text="h5bp/html5-boilerplate"
+              FontFamily="Segoe UI"
+              FontSize="18"
+              FontStretch="Medium"
+              Foreground="#BF18C976" />
+          </Border>
+          <Border
+            Canvas.Top="32"
+            Width="273"
+            Height="16">
+            <TextBlock
+              TextAlignment="Left"
+              VerticalAlignment="Center"
+              LineHeight="20"
+              TextWrapping="Wrap"
+              Text="A professional front-end template for..."
+              FontFamily="Segoe UI"
+              FontSize="13"
+              FontStretch="Medium"
+              Foreground="#686868" />
+          </Border>
+        </Canvas>
+      </Canvas>
+    </Canvas>
+    <Canvas
+      Canvas.Top="136"
+      Width="273"
+      Height="176"
+      ClipToBounds="True">
+      <Border
+        Width="81"
+        Height="24">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Center"
+          LineHeight="32"
+          TextWrapping="Wrap"
+          Text="Formal"
+          FontFamily="Segoe UI"
+          FontSize="24"
+          FontStretch="Medium"
+          Foreground="#18C976" />
+      </Border>
+      <Border
+        Canvas.Top="40"
+        Width="273"
+        Height="136">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="27"
+          TextWrapping="Wrap"
+          Text="the ability of a computer system to cope with errors during execution and cope with erroneous input. "
+          FontFamily="Segoe UI"
+          FontSize="20"
+          FontStretch="Medium"
+          Foreground="#686868" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Top="304"
+      Width="249"
+      Height="72"
+      ClipToBounds="True">
+      <Border
+        Width="81"
+        Height="24">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Center"
+          LineHeight="32"
+          TextWrapping="Wrap"
+          Text="Simple"
+          FontFamily="Segoe UI"
+          FontSize="24"
+          FontStretch="Medium"
+          Foreground="#18C976" />
+      </Border>
+      <Border
+        Canvas.Top="40"
+        Width="249"
+        Height="32">
+        <TextBlock
+          TextAlignment="Left"
+          VerticalAlignment="Top"
+          LineHeight="27"
+          TextWrapping="Wrap"
+          Text="Do it handle errors good?"
+          FontFamily="Segoe UI"
+          FontSize="20"
+          FontStretch="Medium"
+          Foreground="#686868" />
+      </Border>
+    </Canvas>
+  </Canvas>
+  <Image
+    Canvas.Left="162"
+    Canvas.Top="24"
+    Width="32.99998"
+    Height="32" />
+  <Rectangle
+    Canvas.Left="368"
+    Canvas.Top="208"
+    Width="818.6001"
+    Height="55.9999389648438"
+    RadiusX="5"
+    RadiusY="5"
+    StrokeThickness="3"
+    Stroke="#18C976"
+    Fill="#FFFFFF" />
+  <Border
+    Canvas.Left="384"
+    Canvas.Top="224"
+    Width="157.5063"
+    Height="24.0000152587891">
+    <TextBlock
+      TextAlignment="Left"
+      VerticalAlignment="Center"
+      LineHeight="32"
+      TextWrapping="Wrap"
+      Text="Search"
+      FontFamily="Segoe UI"
+      FontSize="24"
+      FontStretch="Medium"
+      Foreground="#99686868" />
+  </Border>
+  <Border
+    Canvas.Left="368"
+    Canvas.Top="149"
+    Width="457.0001"
+    Height="35.0000152587891">
+    <TextBlock
+      TextAlignment="Left"
+      VerticalAlignment="Center"
+      LineHeight="43"
+      TextWrapping="Wrap"
+      Text="POOR HACKER'S ALMANAC"
+      FontFamily="Supply"
+      FontSize="36"
+      FontStretch="Medium"
+      Foreground="#18C976" />
+  </Border>
+  <Canvas
+    Canvas.Left="368"
+    Canvas.Top="360"
+    Width="369.0001"
+    Height="68"
+    ClipToBounds="True">
+    <Canvas
+      Canvas.Top="36"
+      Width="73"
+      Height="32"
+      ClipToBounds="True">
+      <Rectangle
+        Width="72.99999"
+        Height="32"
+        RadiusX="5"
+        RadiusY="5"
+        Fill="#18C976" />
+      <Border
+        Canvas.Left="8"
+        Width="57"
+        Height="32">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="21"
+          TextWrapping="Wrap"
+          Text="REST"
+          FontFamily="Segoe UI"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#FFFFFF" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="80"
+      Canvas.Top="36"
+      Width="73.00006"
+      Height="32"
+      ClipToBounds="True">
+      <Rectangle
+        Width="73.00006"
+        Height="32"
+        RadiusX="5"
+        RadiusY="5"
+        Fill="#18C976" />
+      <Border
+        Canvas.Left="8"
+        Width="57.00005"
+        Height="32">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="21"
+          TextWrapping="Wrap"
+          Text="node"
+          FontFamily="Segoe UI"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#FFFFFF" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="160"
+      Canvas.Top="36"
+      Width="65"
+      Height="32"
+      ClipToBounds="True">
+      <Rectangle
+        Width="65"
+        Height="32"
+        RadiusX="5"
+        RadiusY="5"
+        Fill="#18C976" />
+      <Border
+        Canvas.Left="12"
+        Width="41.00001"
+        Height="32">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="21"
+          TextWrapping="Wrap"
+          Text="CLI"
+          FontFamily="Segoe UI"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#FFFFFF" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="232"
+      Canvas.Top="36"
+      Width="137.0001"
+      Height="32"
+      ClipToBounds="True">
+      <Rectangle
+        Width="137.0001"
+        Height="32"
+        RadiusX="5"
+        RadiusY="5"
+        Fill="#18C976" />
+      <Border
+        Canvas.Left="12"
+        Width="113.0001"
+        Height="32">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="21"
+          TextWrapping="Wrap"
+          Text="propagation"
+          FontFamily="Segoe UI"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#FFFFFF" />
+      </Border>
+    </Canvas>
+    <Border
+      Width="81.00003"
+      Height="24">
+      <TextBlock
+        TextAlignment="Center"
+        VerticalAlignment="Center"
+        LineHeight="21"
+        TextWrapping="Wrap"
+        Text="Add Tags"
+        FontFamily="Segoe UI"
+        FontSize="16"
+        FontStretch="Medium"
+        Foreground="#686868" />
+    </Border>
+  </Canvas>
+  <Canvas
+    Canvas.Left="368"
+    Canvas.Top="296"
+    Width="577.8889"
+    Height="352.000030517578"
+    ClipToBounds="True">
+    <Canvas
+      Width="145"
+      Height="312"
+      ClipToBounds="True">
+      <Rectangle
+        Width="145"
+        Height="47.9999084472656"
+        RadiusX="5"
+        RadiusY="5"
+        StrokeThickness="3"
+        Stroke="#18C976"
+        Fill="#FFFFFF" />
+      <Border
+        Width="105"
+        Height="47.9999084472656">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="21"
+          TextWrapping="Wrap"
+          Text="Language"
+          FontFamily="Segoe UI"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#686868" />
+      </Border>
+      <Image
+        Canvas.Left="112"
+        Canvas.Top="14.4"
+        Width="17"
+        Height="19.1998233795166" />
+    </Canvas>
+    <Canvas
+      Canvas.Left="164"
+      Width="145"
+      Height="48"
+      ClipToBounds="True">
+      <Rectangle
+        Width="145"
+        Height="48"
+        RadiusX="5"
+        RadiusY="5"
+        StrokeThickness="3"
+        Stroke="#18C976"
+        Fill="#FFFFFF" />
+      <Image
+        Canvas.Left="112"
+        Canvas.Top="14.4"
+        Width="17"
+        Height="19.1999988555908" />
+      <Border
+        Width="105"
+        Height="48">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="21"
+          TextWrapping="Wrap"
+          Text="Company"
+          FontFamily="Segoe UI"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#686868" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="328"
+      Width="145"
+      Height="48"
+      ClipToBounds="True">
+      <Rectangle
+        Width="145"
+        Height="48"
+        RadiusX="5"
+        RadiusY="5"
+        StrokeThickness="3"
+        Stroke="#18C976"
+        Fill="#FFFFFF" />
+      <Image
+        Canvas.Left="112"
+        Canvas.Top="14.4"
+        Width="17"
+        Height="19.1999988555908" />
+      <Border
+        Width="105"
+        Height="48">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="21"
+          TextWrapping="Wrap"
+          Text="Platform"
+          FontFamily="Segoe UI"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#686868" />
+      </Border>
+    </Canvas>
+    <Canvas
+      Canvas.Left="496"
+      Width="81.88892"
+      Height="48"
+      ClipToBounds="True">
+      <Rectangle
+        Width="81.00003"
+        Height="48"
+        RadiusX="5"
+        RadiusY="5"
+        StrokeThickness="3"
+        Stroke="#18C976"
+        Fill="#FFFFFF" />
+      <Border
+        Width="81.88892"
+        Height="48">
+        <TextBlock
+          TextAlignment="Center"
+          VerticalAlignment="Center"
+          LineHeight="21"
+          TextWrapping="Wrap"
+          Text="Version"
+          FontFamily="Segoe UI"
+          FontSize="16"
+          FontStretch="Medium"
+          Foreground="#99686868" />
+      </Border>
+    </Canvas>
+  </Canvas>
+  <Border
+    Canvas.Left="208"
+    Canvas.Top="24"
+    Width="73.00003"
+    Height="32">
+    <TextBlock
+      TextAlignment="Left"
+      VerticalAlignment="Top"
+      LineHeight="32"
+      TextWrapping="Wrap"
+      Text="Search"
+      FontFamily="Segoe UI"
+      FontSize="24"
+      FontStretch="Medium"
+      Foreground="#BFFFFFFF" />
+  </Border>
+</Canvas>
+
