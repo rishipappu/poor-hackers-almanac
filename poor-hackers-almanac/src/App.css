@@ -1,0 +1,187 @@
+#root {
+  padding: 1em
+}
+
+em {
+  background: cyan;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(to right, #8e43e7, #00aeff);
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-title {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.header-title::after {
+  content: ' ▸ ';
+  padding: 0 0.5rem;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-panel {
+  display: flex;
+}
+
+.search-panel__filters {
+  flex: 1;
+}
+
+.search-panel__results {
+  flex: 3;
+}
+
+.searchbox {
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.ais-Hits-item {
+  border: 2px solid #18c976;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px transparent;
+  padding: 0em;
+}
+
+.resultBox {
+  padding: 1em 2em;
+}
+
+.ais-SearchBox-input {
+  border: 2px solid #18c976;
+  border-radius: 500px;
+  font-size: 1em;
+  padding: 0.5em;
+  padding-left: 3em;
+  font-family: "Segoe UI";
+}
+
+.ais-SearchBox-input:focus {
+  outline: none
+}
+
+.ais-SearchBox-submit {
+  margin-left: 0.5em;
+}
+
+.ais-SearchBox-reset {
+  margin-right: 0.5em;
+}
+
+.term {
+  font-weight: 400;
+  color: #18c976;
+  padding: 1em;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.tags {
+  width: 100%;
+  display: block;
+  /* padding: 0.5em; */
+}
+
+.tag {
+  position: relative;
+  text-align: center;
+  /* float: left; */
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  background-color: rgba(24, 201, 118, 1.2);
+  border-radius: 100px;
+  margin: 5px;
+  color: #fff;
+}
+
+.hitItem {
+  width: 100%;
+  height: 100%;
+}
+
+.closed {
+  display: none;
+}
+
+.open {
+  width: 50vw;
+  position: absolute;
+  z-index: 10;
+  display: block;
+  background: rgba(255, 255, 255, 1);
+  border: 2px solid #18c976;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.openbutton, .closebutton {
+  background: transparent;
+  border-radius: 100px;
+  color: #18c976;
+  border: 2px solid #18c976;
+  margin: 1em;
+  font-family: "Segoe UI";
+  padding: 5px 10px;
+}
+
+.openbutton:hover, 
+.closebutton:hover,
+.openbutton:focus,
+.closebutton:focus {
+  color: #fff;
+  background: #18c976;
+  outline: none;
+}
+
+.definitions {
+  padding: 0 1em;
+  display: block;
+}
+
+.definitions > p {
+  line-height: 2em;
+}
+
+.contentHeader {
+  padding: 1em;
+}
+
+strong {
+  font-weight: 500;
+  color: #18c976;
+  font-family: "Segoe UI";
+}
+
+.modalTerm {
+  color: #18c976;
+  font-weight: 600;
+}
