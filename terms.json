@@ -1,0 +1,135 @@
+[
+    {
+        "_id": "0",
+        "term": "DOM",
+        "formalDefinition": "The Document Object Model (DOM) is a programming interface for HTML, XHTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.",
+        "simpleDefinition": "A collection of elements on a webpage represented as nodes or objects (in a tree format). This allows it to be manipulated much easier using external programming languages.",
+        "tags": [
+            "Web",
+            "JavaScript",
+            "Front-End",
+            "React",
+            "Vue",
+            "Angular",
+            "DOM"
+        ],
+        "currentVersion": null,
+        "managedBy": null,
+        "created": "1998-07-20",
+        "originalAuthor": [
+            "Vidur Apparao",
+            "Steve Byrne",
+            "Mike Champion",
+            "Scott Isaacs",
+            "Arnaud Lee Hors",
+            "Gavin Nicol",
+            "Jonathan Robie",
+            "Peter Sharpe",
+            "Bill Smith",
+            "Jared Sorenson",
+            "Robert Sutor",
+            "Ray Whitmer",
+            "Chris Wilson"
+        ],
+        "relevantLinks": [
+            "https://www.w3.org/TR/WD-DOM/cover.html"
+        ]
+    },
+    {
+        "_id": "1",
+        "term": "React",
+        "formalDefinition": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.",
+        "simpleDefinition": "A software that allows you to use JavaScript to create reusable blocks of HTML (called components) for templates. Each component has its own state and set of attributes called props.",
+        "tags": [
+            "JavaScript",
+            "DOM",
+            "Stylized Components"
+        ],
+        "currentVersion": "16.8.6",
+        "managedBy": "Facebook Open Source",
+        "created": "2013-05-29",
+        "originalAuthor": [
+            "Jordan Walke"
+        ],
+        "relevantLinks": [
+            "https://reactjs.org",
+            "https://reactjs.org/docs"
+        ]
+    },
+    {
+        "_id": "2",
+        "term": "NoSQL",
+        "formalDefinition": "A NoSQL database has a dynamic schema for unstructured data, and data is stored in many ways: it can be column-oriented, document-oriented, graph-based or organized as a KeyValue store.",
+        "simpleDefinition": "NoSQL databases are used to store data that can't necessarily be stored in a row-column format. This means that data can be stored in separate columns, documents which have different sets of attributes, with spider-web-like relations, or as a key/value pairs in rows.",
+        "tags": [
+            "Database",
+            "RDBMS",
+            "MongoDB",
+            "GraphQL",
+            "Hadoop",
+            "NoSQL",
+            "Redis"
+        ],
+        "currentVersion": null,
+        "managedBy": null,
+        "created": "1998",
+        "originalAuthor": [
+            "Carlo Strozzi"
+        ],
+        "relevantLinks": [
+            "https://mongodb.org",
+            "https://graphql.org/",
+            "https://hadoop.apache.org/"
+        ]
+    },
+    {
+        "_id": "3",
+        "term": "MongoDB Atlas",
+        "formalDefinition": "Proven operational and security practices are built in, automating time-consuming administration tasks such as infrastructure provisioning, database setup, ensuring availability, global distribution, backups, and more. The easy-to-use UI and API let you spend more time building your applications and less time managing your database.",
+        "simpleDefinition": "Uses a document-oriented model to define easily useable schemas combined with a client to make database input and retrieval easy.",
+        "tags": [
+            "NoSQL",
+            "RDBMS",
+            "MongoDB",
+            "GraphQL",
+            "Hadoop",
+            "Redis",
+            "C++",
+            "JavaScript",
+            "Python",
+            "Go"
+        ],
+        "currentVersion": "4.0.5",
+        "managedBy": "MongoDB Inc.",
+        "created": "2007",
+        "originalAuthor": [
+            "10gen"
+        ],
+        "relevantLinks": [
+            "https://www.mongodb.com/",
+            "https://www.mongodb.com/cloud/atlas"
+        ]
+    },
+    {
+        "_id": "4",
+        "term": "Node.js",
+        "formalDefinition": "A JavaScript runtime engine built on Chrome's V8 JavaScript Engine.",
+        "simpleDefinition": "A way of writing code that allows you to use server-side processes and communications.",
+        "tags": [
+            "JavaScript",
+            "ES6",
+            "ECMAScript",
+            "ES7",
+            "Chrome",
+            "V8 Engine"
+        ],
+        "currentVersion": "10.15.1",
+        "managedBy": "Linux Foundation",
+        "created": "2009-05-27",
+        "originalAuthor": "Ryan Dahl",
+        "relevantLinks": [
+            "https://nodejs.org/en/",
+            "https://nodejs.org/en/download/"
+        ]
+    }
+]
