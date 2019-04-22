@@ -6,10 +6,16 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint .",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "homepage": "https://rishipappu.github.io/poor-hackers-almanac",
+    "predeploy": "yarn build run",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "algoliasearch": "3.30.0",
+    "gh-pages": "^2.0.1",
     "react": "16.6.3",
     "react-dom": "16.6.3",
     "react-instantsearch-dom": "5.4.0",

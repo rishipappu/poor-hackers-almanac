@@ -21,6 +21,21 @@ const Tags = ({ hit }) => (
     ))}
   </div>
 );
+const Links = ({ hit }) => (
+  <div className="links">
+    <strong>Relevant Links:</strong>
+    {hit.relevantLinks.map(link => (
+      <a
+        target="_blank"
+        href={link}
+        className="tag"
+        key={hit.objectID + hit.relevantLinks.indexOf(link)}
+      >
+        {link.slice(0, 30)}
+      </a>
+    ))}
+  </div>
+);
 
 // eslint-disable-next-line react/prop-types
 const Definitions = ({ hit }) => (
@@ -35,22 +50,17 @@ const Definitions = ({ hit }) => (
 );
 
 // eslint-disable-next-line react/prop-types
-const currentVersion = ({ hit }) => (
-  <p>Current Version: v{hit.currentVersion}</p>
+const CurrentVersion = ({ hit }) => (
+  <p>
+    <strong>Current Version:</strong> v{hit.currentVersion}
+  </p>
 );
 // eslint-disable-next-line react/prop-types
-const managedBy = ({ hit }) => <p>Managed By: {hit.managedBy}</p>;
-
-const currentVersionChecked = ({ hit }) => {
-  if (hit.currentVersion !== null) {
-    return <currentVersion hit={hit} />;
-  }
-};
-const managedByChecked = ({ hit }) => {
-  if (hit.managedBy !== null) {
-    return <managedBy hit={hit} />;
-  }
-};
+const ManagedBy = ({ hit }) => (
+  <p>
+    <strong>Managed By:</strong> {hit.managedBy}
+  </p>
+);
 
 // eslint-disable-next-line react/prop-types
 const Information = props => (
@@ -59,15 +69,16 @@ const Information = props => (
       <h1 className="modalTerm" onClick={props.onClick}>
         {props.hit.term}
       </h1>
-      <p>
-        <strong>Created:</strong> {props.hit.created}
-      </p>
       <div>
         <Tags hit={props.hit} />
       </div>
+      <p>
+        <strong>Created:</strong> {props.hit.created}
+      </p>
+      <CurrentVersion hit={props.hit} />
+      <ManagedBy hit={props.hit} />
+      <Links hit={props.hit} />
     </div>
-    <currentVersionChecked hit={props.hit} />
-    <managedByChecked hit={props.hit} />
     <Definitions hit={props.hit} />
   </div>
 );
